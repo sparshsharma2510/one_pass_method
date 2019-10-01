@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	int n,m,i,j,k=0,d=0;
+	int n,m,i,j,k,d;
 	int arr[60];
 	int Arr[60];
 	int ord[60];
@@ -25,12 +25,12 @@ int main()
 
 	}
 	cout<<"\nEnter The Numbers In Array 2 : ";
-	for(j=0;j<m;j++)
+	for(j=0;j<n;j++)
 	{
 		cin>>Arr[j];
 
 	}
-		d=d+(m+n);
+		d=d-(m+n);
 
 	for(i=0,j=0,k=0;i<n,j<m,k<d;k++)
 	{
