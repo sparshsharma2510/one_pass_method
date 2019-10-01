@@ -25,7 +25,7 @@ int main()
 
 	}
 	cout<<"\nEnter The Numbers In Array 2 : ";
-	for(j=0;j<n;j++)
+	for(j=0;j<m;j++)
 	{
 		cin>>Arr[j];
 
