@@ -30,7 +30,7 @@ int main()
 		cin>>Arr[j];
 
 	}
-		d=d-(m+n);
+		d=d+(m+n);
 
 	for(i=0,j=0,k=0;i<n,j<m,k<d;k++)
 	{
