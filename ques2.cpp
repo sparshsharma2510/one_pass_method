@@ -9,6 +9,7 @@ int main()
 	int arr[60];
 	int Arr[60];
 	int ord[60];
+	d=0;
 
 	cout<<"Enter The Size Of Array 1 : ";
 	cin>>n;
